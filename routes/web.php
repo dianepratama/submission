@@ -18,9 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('form');
+    return view('home');
 });
-
-Route::get('/post', function () {
-    return '<h2>post</h2>';
+Route::get('/form', function () {
+    return view('form');
 });
