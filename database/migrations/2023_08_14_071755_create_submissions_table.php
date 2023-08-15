@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained(); // users
             $table->foreignId('status_id')->constrained(); // statuses
             $table->enum('type', ['Leave','Permit','Sick']);
-            $table->string('attachments');
+            $table->string('attachment');
             $table->timestamps();
         });
     }
