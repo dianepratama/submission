@@ -5,6 +5,7 @@
         <ul class="flex space-x-4">
             <li><a href="/" class="text-white hover:text-gray-400">Home</a></li>
             <li><a href="#" class="text-white hover:text-gray-400">Logout</a></li>
+            <li><x-avatar></x-avatar></li>
         </ul>
     </div>
 </nav>

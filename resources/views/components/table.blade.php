@@ -25,10 +25,7 @@
             </tr>
         </thead>
   
-        <tbody>
-          @foreach ($records as $record)
-              <x-table-record :record="$record"></x-table-record>
-          @endforeach
-        </tbody>
+        <x-table-body :records="$records"> </x-table-body>
     </table>
   </div>
+  
