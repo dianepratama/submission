@@ -4,7 +4,7 @@
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg">
          
             <x-table-title></x-table-title>
-            <x-table></x-table>
+            <x-table :records="$records"></x-table>
 
         </div>
     </div>
