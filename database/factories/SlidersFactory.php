@@ -18,7 +18,7 @@ class SlidersFactory extends Factory
     {
         return [
             'title' => fake()->name(),
-            'photo' => $this->faker->image(storage_path('images'), 600, 300),
+            'photo' => $this->faker->image(storage_path('images'), 300, 300),
         ];
     }
 }
