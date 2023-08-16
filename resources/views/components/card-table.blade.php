@@ -1,5 +1,5 @@
   <!-- Recent Activities Card -->
-  <div class="xl:basis-3/4 xl:mx-auto bg-white rounded-lg shadow-lg px-4 py-6">
+  <div class="xl:basis-2/4 xl:mx-auto bg-white rounded-lg shadow-lg px-4 py-6">
     <h2 class="text-base font-semibold text-gray-500 mb-2">Recent Approval</h2>
    
     @foreach ($recenthistories as $history)
