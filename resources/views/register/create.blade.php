@@ -44,7 +44,7 @@
                         @enderror
                 </div>
                 <button type="submit"
-                    class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-800">Register</button>
+                    class="bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-600">Register</button>
             </form>
         </div>
     </section>
