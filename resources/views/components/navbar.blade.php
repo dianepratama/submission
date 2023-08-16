@@ -1,13 +1,13 @@
  <!-- Navbar -->
  <nav class="bg-gradient-to-b from-blue-500 to-blue-600 p-4 shadow-lg">
     <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-white font-semibold text-lg">{{ config('app.name') }}</a>
+        <a href="/" class="text-white font-semibold text-lg">{{ config('app.name') }}</a>
         <ul class="flex space-x-4">
             @auth
-                <li><a href="register" class="text-white hover:text-gray-400">Home</a></li>
-                <form action="logout" method="POST">
+                <li><a href="/home" class="text-white hover:text-gray-400">Home</a></li>
+                <form action="/logout" method="POST">
                   @csrf
-                  <button type="submit" class="text-white hover:text-gray-400 focus:outline-none">
+                  <button type="/submit" class="text-white hover:text-gray-400 focus:outline-none">
                       Logout
                   </button>
               </form>

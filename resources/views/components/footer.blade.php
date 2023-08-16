@@ -1,5 +1,5 @@
     <!-- Footer Section -->
-    <footer class="bg-white dark:bg-gray-900">
+    <footer class="bg-white dark:bg-gray-900 mt-10">
         <div class="container px-6 py-8 mx-auto">
             <div class="flex flex-col items-center text-center">
                 <a href="#">

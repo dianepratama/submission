@@ -4,7 +4,8 @@
         <div class="flex flex-col xl:flex-row gap-4">
 
             <x-card-value :cardvalue="$cardvalue"></x-card-value>
-            <x-card-table  :recenthistories="$recenthistories"></x-card-table>
+
+            <x-card-table :recenthistories="$recenthistories">Recent Approval</x-card-table>
 
         </div>
     </div>

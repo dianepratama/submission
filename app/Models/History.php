@@ -10,9 +10,11 @@ class History extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['user_id', 'status_id', 'comments'];
+
     public function actor(): BelongsTo
     {
-      return $this->belongsTo(User::class,'user_id');
+      return $this->belongsTo(User::class, 'user_id');
     }
 
     public function submission(): BelongsTo

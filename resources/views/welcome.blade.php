@@ -6,7 +6,7 @@
     @endsection
     
 @section('content')
-<section class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+<section class="p-4">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap items-center justify-between">
         <div class="w-full px-4 lg:w-6/12">
@@ -14,14 +14,14 @@
             <div class="w-full px-3 sm:px-4 xl:w-1/2">
               <div class="py-3 sm:py-4">
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
+                  src="https://images.pexels.com/photos/2365700/pexels-photo-2365700.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt=""
                   class="w-full rounded-2xl"
                 />
               </div>
               <div class="py-3 sm:py-4">
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-2.jpg"
+                  src="https://merahputih.com/media/34/fc/7b/34fc7b3cdb7bce89a931e24ab940d16a.jpeg"
                   alt=""
                   class="w-full rounded-2xl"
                 />
@@ -30,7 +30,7 @@
             <div class="w-full px-3 sm:px-4 xl:w-1/2">
               <div class="relative z-10 my-4">
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-3.jpg"
+                  src="https://images.pexels.com/photos/3873186/pexels-photo-3873186.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt=""
                   class="w-full rounded-2xl"
                 />
@@ -617,15 +617,12 @@
               Make your employees happy by giving them the freedom to avoid coming to work.
             </h2>
             <p class="text-body-color mb-8 text-base">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The point
-              of using Lorem Ipsum is that it has a more-or-less.
+              Elevate employee satisfaction by offering the liberty to opt for remote work, enabling a harmonious blend between professional commitments and personal well-being.
+
+             
             </p>
             <p class="text-body-color mb-12 text-base">
-              A domain name is one of the first steps to establishing your brand.
-              Secure a consistent brand image with a domain name that matches your
-              business.
-            </p>
+              In today's dynamic work landscape, fostering employee happiness is paramount for productivity and overall success. Imagine a workplace where your team members feel empowered, valued, and in control of their work-life balance. Our groundbreaking approach to employee satisfaction revolves around granting them the freedom to choose – the freedom to avoid the daily commute and work from an environment that best suits their needs. By embracing flexible work arrangements, you not only enhance morale but also tap into the potential of a more engaged and motivated workforce.            </p>
           </div>
         </div>
       </div>
